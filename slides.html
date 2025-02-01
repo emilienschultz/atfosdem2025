@@ -348,9 +348,9 @@
 <li>No-code tools to democratize/clarify CSS practices</li>
 </ul>
 </section>
-<section id="rational-for-active-tiggerat" class="slide level2">
-<h2>Rational for Active Tigger<sup>1</sup></h2>
-<p><em>A open source web application for text classification</em> :</p>
+<section id="rationale-for-active-tiggerat" class="slide level2">
+<h2>Rationale for Active Tigger<sup>1</sup></h2>
+<p><em>An open source web application for text classification</em> :</p>
 <ul>
 <li><strong>Collaborate</strong> on text annotation</li>
 <li><strong>Accelerate</strong> the annotation of specific elements (active learning)</li>
@@ -359,7 +359,7 @@
 <blockquote>
 <p>« Even on complex tasks, a well-trained supervised model […] can equal, and sometimes even surpass human annotation »<sup>2</sup></p>
 </blockquote>
-<aside><ol class="aside-footnotes"><li id="fn1"><p>Started on 2022 with a R Shiny prototype by Julien Boelaert</p></li><li id="fn2"><p>Do, Salomé, Etienne Ollion, et Rubing Shen. «&nbsp;The Augmented Social Scientist&nbsp;». Sociological Methods and Research, 2022.</p></li></ol></aside></section>
+<aside><ol class="aside-footnotes"><li id="fn1"><p>Started in 2022 with a R Shiny prototype by Julien Boelaert</p></li><li id="fn2"><p>Do, Salomé, Etienne Ollion, et Rubing Shen. «&nbsp;The Augmented Social Scientist&nbsp;». Sociological Methods and Research, 2022.</p></li></ol></aside></section>
 <section id="technical-overview" class="slide level2">
 <h2>Technical overview</h2>
 <ul>
@@ -367,10 +367,11 @@
 <li><em>Frontend</em>: React + Python client</li>
 <li><em>Models</em>: BERT<sup>1</sup> + API</li>
 </ul>
-<p>2 central values :</p>
+<p>3 guiding values :</p>
 <ul>
-<li>Integrate annotation best practices</li>
-<li>Flexible to be customized for specific uses</li>
+<li>Tool dedicated to a specific task</li>
+<li>Integrate (if possible) annotation best practices</li>
+<li>Keep flexibility to allow reuse/modifications</li>
 </ul>
 <aside><ol class="aside-footnotes"><li id="fn3"><p>They are still in the race : <a href="https://huggingface.co/blog/modernbert"><em>ModernBert just dropped</em></a></p></li></ol></aside></section>
 <section id="current-state-of-development" class="slide level2">
@@ -381,18 +382,18 @@
 <li>Integrate external API (HuggingFace, etc.) to annotate</li>
 <li>Stable “classical” version by June, in Docker</li>
 </ul>
-<aside><ol class="aside-footnotes"><li id="fn4"><p>The need of a GPU limit the possibility to open the service, so if you want to try, send me a mail @ emilien.schultz@ensae.fr</p></li></ol></aside></section>
+<aside><ol class="aside-footnotes"><li id="fn4"><p>The need of a GPU limits the possibility to open the service, so if you want to try, send me a mail @ emilien.schultz@ensae.fr</p></li></ol></aside></section>
 <section id="lets-jump-to-a-quick-demo" class="slide level2">
 <h2>Let’s jump to a quick demo</h2>
 <p>Do i need a classifier right now ? Maybe !</p>
 <ul>
 <li>I need to pick up the talk I want to attend after this one</li>
-<li>I have all the abstract of the conference</li>
+<li>I have all the abstracts of the conference</li>
 </ul>
-<p>(<em>yes, it is not really social science stuff, but you will get the idea</em>)</p>
+<p>(<em>yes, it is not really social science stuff, but you get the idea : would be similar for annotating different frame in newspaper coverage</em>)</p>
 </section>
-<section id="how-do-i-proceed" class="slide level2">
-<h2>How do I proceed</h2>
+<section id="how-to-proceed" class="slide level2">
+<h2>How to proceed</h2>
 <ul>
 <li>Secure the FOSDEM dataset</li>
 <li><a href="https://emilienschultz.github.io/activetigger/">Go to an Active Tigger instance</a>
@@ -402,6 +403,7 @@
 <li>Annotate randomly + actively</li>
 <li>Train a model / evaluate / iterate</li>
 <li>Extend the annotation to the dataset</li>
+<li>Download the results</li>
 </ul></li>
 </ul>
 </section>
